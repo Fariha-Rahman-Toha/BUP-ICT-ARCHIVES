@@ -15,22 +15,50 @@
     <!--for navigation-->
     <section class="navbar" style="width:100%;">        
         <div class="m-4">            
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a href="https://bup.edu.bd/" class="navbar-brand"><img src="../images/logo.png" style="height: 80px;width:100%;" class="logo-resize img-responsive"></a>
+                    <a href="../user/home.html" class="navbar-brand"><img src="../images/logo.png" style="height: 80px;width:100%;" class="logo-resize img-responsive"></a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav">
         
-                            <a href="../visitors/index.html" class="nav-item nav-link link-light">Home</a>
-                            <a href="" class="nav-item nav-link active link-light">Course List</a>
-                            <a href="../visitors/login.html" class="nav-item nav-link link-light">Books</a>
-                            <a href="../visitors/login.html" class="nav-item nav-link link-light">Assignment</a>
-                            <a href="../visitors/login.html" class="nav-item nav-link link-light">Routine</a>
-                            <a href="../visitors/login.html" class="nav-item nav-link link-light">Question</a>
-                            <a href="../visitors/login.html" class="nav-item nav-link link-light">Others</a>
+                            <a href="../user/home.html" class="nav-item nav-link link-light">Home</a>
+                            <a href="../user/studentprofile.html" class="nav-item nav-link link-light">Profile</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle link-light" data-bs-toggle="dropdown">Course Materials</a>
+                                <div class="dropdown-menu">
+                                    <a href="../user/sem1coursematerial.html" class="dropdown-item">1st Semester</a>
+                                    <a href="../user/sem2coursematerial.html" class="dropdown-item">2nd Semester</a>
+                                    <a href="../user/sem3coursematerial.html" class="dropdown-item">3rd Semester</a>
+                                    <a href="../user/sem4coursematerial.html" class="dropdown-item">4th Semester</a>
+                                    <a href="../user/sem5coursematerial.html" class="dropdown-item">5th Semester</a>
+                                    <a href="../user/sem6coursematerial.html" class="dropdown-item">6th Semester</a>
+                                    <a href="../user/sem7coursematerial.html" class="dropdown-item">7th Semester</a>
+                                    <a href="../user/sem8coursematerial.html" class="dropdown-item">8th Semester</a>
+                                </div>
+                            </div>
+                            <a href="../user/books.html" class="nav-item nav-link link-light" >Books</a>
+                            <a href="../user/assignment.html" class="nav-item nav-link link-light">Assignment</a>                            
+                            <a href="../user/routine.html" class="nav-item nav-link link-light">Routine</a>                            
+                            <a href="../user/questions.html" class="nav-item nav-link link-light">Question</a>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle link-light" data-bs-toggle="dropdown">Others</a>
+                                <div class="dropdown-menu">
+                                    <a href="../user/notice.html" class="dropdown-item">Noticeboard</a>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="d-flex">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                            </div>
+                        </form>
+                        <div class="navbar-nav">
+                            <a href="../visitors/index.html" class="nav-item nav-link">Log Out</a>
                         </div>
                     </div>
                 </div>
